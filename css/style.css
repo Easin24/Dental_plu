@@ -1,0 +1,224 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; 
+color: #f69165;
+color: #a0a0a0;
+color: #00cce1;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,a,p,span,button{
+    font-family: 'Poppins', sans-serif;
+}
+.header{}
+.header_top{
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+}
+.logo{}
+.logo img{
+    width: 160px;
+}
+.contact{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.contact ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.contact ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.contact ul li:last-child{
+    margin-right: 0px;
+}
+.contact ul li .contact_details{}
+.contact ul li .contact_icon{}
+.contact ul li .contact_icon i{
+    color: #f69165;
+    font-size: 25px;
+    margin-right: 7px;
+}
+.contact_name{}
+.contact_name h1{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.contact_info{}
+.contact_info p{
+    color: #a0a0a0;
+    font-size: 9px;
+    margin-bottom: 0;
+}
+.bottom_header{
+    background: #00cce1;
+}
+.appointment{
+    background: #f69165;
+    color: white !important;
+    transform: skewX(-20deg);
+}
+.appointment_btn{
+    transform: skewX(20deg);
+}
+.appointment i{
+    color: white;
+    margin-right: 5px;
+}
+.appointment span{
+    color: white;
+}
+.navbar{
+    padding-top:0px ;
+    padding-bottom:0px ;
+}
+.my_nav a{
+    font-size: 15px;
+    margin-right: 30px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.my_nav a::before {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0px;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(246, 145, 101);
+    transition: all 0.5s ease 0s;
+}
+.my_nav a:hover::before{
+    width: 100%;
+}
+.nav-link{
+    padding: 0px !important;
+}
+/* Slider Css */
+.slider_section{
+    min-height: 80vh;
+    background: url(../images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.slider_content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 80vh;
+}
+.slider_content h2 {
+    background-color: #00cce1;
+    padding: 5px 20px;
+    color: white;
+    font-size: 30px;
+}
+.slider_content h1 {
+    background-color: #f69165;
+    color: white;
+    padding: 5px 20px;
+    font-size: 38px;
+}
+.slider_content p {
+    font-size: 12px;
+    width: 80%;
+    margin-bottom: 35px;
+}
+.slider_btns{
+    display: flex;
+    padding-left: 0px;
+}
+.slider_btns li{
+    list-style: none;
+    margin-right: 15px;
+}
+.learn_btn {
+    text-decoration: none;
+    color: white;
+    background: #F69165;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.book_btn {
+    text-decoration: none;
+    background: #00CCE1;
+    color: white;
+    padding: 10px 16px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.learn_btn:hover{
+    color: white;
+}
+.book_btn:hover{
+    color: white;
+}
+.slider_image{
+    height: 80vh;
+    display: flex;
+    align-items: end;
+}
+/* Welcome Section */
+.welcome_section{
+    padding: 80px 0px;
+    position: relative;
+}
+.welcome_img{}
+.welcome_details{}
+.welcome_heading{
+    margin-bottom: 50px;
+}
+.welcome_heading h1{
+    font-size: 25px;
+    font-weight: 900;
+    color: #363636;
+}
+.welcome_heading p{
+    font-size: 13px;
+}
+.welcome_services{}
+.welcome_service_box{
+    margin-bottom: 25px;
+}
+.welcome_service_box img{
+    width: 40px;
+}
+.welcome_service_box h1{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 16px;
+    color: #363636;
+}
+.welcome_service_box p{
+    font-size: 15px;
+    color: #707070;
+}
+.welcome_image{
+    position: absolute;
+    bottom: 0;
+    left: 45px;
+}
+.welcome_image img{
+    width: 70%;
+}
+.welcome_service_box:nth-child(3){
+    margin-bottom: 0;
+}
+.welcome_service_box:nth-child(4){
+    margin-bottom: 0;
+}
